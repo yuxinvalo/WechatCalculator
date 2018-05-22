@@ -40,8 +40,19 @@ Page({
 
   clickBtn: function(event){
     var id = event.target.id;
-    console.log(id)
-    
+    console.log(id);
+    if(id == this.data.reverse){
+      var currentData = this.data.screenData;
+        if(currentData == "0"){
+          return;
+        } else {
+          currentData = currentData.substring(0, data.length-1);
+        }
+    } else if(id == this.data.equal){
+
+    } else if(id == this.data.clear){
+
+    }
   },
   /**
    * 生命周期函数--监听页面初次渲染完成
