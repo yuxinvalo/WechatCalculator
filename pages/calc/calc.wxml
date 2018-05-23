@@ -3,7 +3,7 @@
 
     <view class="layout-top">
       <view class="screen">
-      0
+      {{screenData}}
       </view>
     </view>
 
