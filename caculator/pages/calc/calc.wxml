@@ -1,0 +1,45 @@
+<!--pages/calc/calc.wxml-->
+<view class="content">
+
+    <view class="layout-top">
+      <view class="screen">
+      {{screenData}}
+      </view>
+    </view>
+
+
+    <view class="layout-bottom">
+      <view class="btnGroup">
+        <view class="item orange" bindtap="clickBtn" id="{{clear}}">С</view>
+      <view class="item orange" bindtap="clickBtn" id="{{back}}">←</view>
+      <view class="item orange" bindtap="clickBtn" id="{{reverse}}">＋/－</view>
+      <view class="item orange iconBtn" bindtap="history">
+          <icon type="{{iconType}}" color="{{iconColor}}" class="icon" size="25"/>
+      </view>
+      <view class="item orange" bindtap="clickBtn" id="{{add}}">＋</view>
+    </view>
+    <view class="btnGroup">
+      <view class="item blue" bindtap="clickBtn" id="{{num9}}">9</view>
+      <view class="item blue" bindtap="clickBtn" id="{{num8}}">8</view>
+      <view class="item blue" bindtap="clickBtn" id="{{num7}}">7</view>
+      <view class="item orange" bindtap="clickBtn" id="{{sub}}">－</view>
+    </view>
+    <view class="btnGroup">
+      <view class="item blue" bindtap="clickBtn" id="{{num6}}">6</view>
+      <view class="item blue" bindtap="clickBtn" id="{{num5}}">5</view>
+      <view class="item blue" bindtap="clickBtn" id="{{num4}}">4</view>
+      <view class="item orange" bindtap="clickBtn" id="{{multi}}">×</view>
+    </view>
+    <view class="btnGroup">
+      <view class="item blue" bindtap="clickBtn" id="{{num3}}">3</view>
+      <view class="item blue" bindtap="clickBtn" id="{{num2}}">2</view>
+      <view class="item blue" bindtap="clickBtn" id="{{num1}}">1</view>
+      <view class="item orange" bindtap="clickBtn" id="{{div}}">÷</view>
+    </view>
+    <view class="btnGroup">
+      <view class="item blue zero" bindtap="clickBtn" id="{{num0}}">0</view>
+      <view class="item blue" bindtap="clickBtn" id="{{point}}">.</view>
+      <view class="item orange" bindtap="clickBtn" id="{{equal}}">＝</view>
+</view>
+    </view>
+</view>

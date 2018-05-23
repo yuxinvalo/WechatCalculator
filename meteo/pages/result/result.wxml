@@ -1,0 +1,18 @@
+<!--pages/result/result.wxml-->
+<view class="container">
+  <view class="forecastInfo">
+    <text>City:{{city}}</text>
+    <text>Date:{{todayDate}}</text>
+    <text>Attention:{{attention}}</text>
+    <text>Temperature:{{temp}}</text>
+    <text>Highest degree:{{highest}}</text>
+    <text>Lowest degree:{{lowest}}</text>
+    <text>Wind Power:{{windPower}}</text>
+</view>
+
+  <view class="returnBtn">
+    <button bindtap='back' type='primary'>
+    Back
+    </button>
+  </view>
+</view>

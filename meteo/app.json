@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/result/result"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ff9966",
+    "navigationBarTitleText": "Forecast search engine",
+    "navigationBarTextStyle":"black"
+  }
+}
